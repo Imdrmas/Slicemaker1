@@ -1,0 +1,358 @@
+.body {
+  background-color: #f0F0F0;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.social-media {
+  position: fixed;
+  z-index: 99999;
+  width: 48px;
+  height: 240px;
+  left: 46px;
+  background: #FFF;
+  border-radius: 10px;
+  font-size: 30px;
+  padding: 10px;
+}
+.social-media .fa-facebook-official{
+  color: #3b5998;
+  cursor: pointer;
+}
+.social-media .fa-twitter-square{
+  color: #1da1f2;
+  cursor: pointer;
+}
+.social-media .fa-print{
+  color: #738a8d;
+  cursor: pointer;
+}
+.social-media .fa-envelope{
+  color: #738a8d;
+  cursor: pointer;
+}
+.social-media .fa-plus-square{
+  color: #ff6550;
+  cursor: pointer;
+}
+.header{
+  display: flex;
+  overflow: hidden;
+}
+.head-header{
+  width: 360px;
+  height: 140px;
+  background: #f05a49;
+  margin-right: 15px;
+  color: #FFF;
+  font-size: 40px;
+  padding: 31px 10px 0px 45px;
+  cursor: pointer;
+}
+.head-header:hover{
+  background-color: #ba91e0;
+}
+.head-header span{
+  font-size: 15px;
+}
+.icon-header{
+  width: 140px;
+  height: 140px;
+  background: #FFF;
+  margin-right: 19px;
+  padding-top: 27px;
+  font-size: 20px;
+  padding-left: 45px;
+  cursor: pointer;
+}
+.hproj{
+margin-left: -25px;
+font-size: 20px;
+margin-top: 5px;
+}
+.header .home:hover{
+  border-bottom: 5px solid #1e8bc3;
+  border-top: 7px solid #1e8bc3;
+}
+.header .home{
+  color: #1e8bc3;
+}
+.fa-home,
+.fa-envelope,
+.fa-th-large,
+.fa-edit,
+.fa-file-text-o{
+  font-size: 50px;
+}
+.header .about:hover{
+  border-bottom: 5px solid #f86924;
+  border-top: 7px solid #f86924;
+}
+.header .about{
+  color: #f86924;
+}
+.header .edit:hover{
+  border-bottom: 5px solid #ff9f00;
+  border-top: 7px solid #ff9f00;
+}
+.header .edit{
+  color: #ff9f00;
+}
+.header .project:hover{
+  border-bottom: 5px solid #35bc7a;
+  border-top: 7px solid #35bc7a;
+}
+.header .project{
+  color: #35bc7a;
+}
+.header .contact:hover{
+  border-bottom: 5px solid #f05a49;
+  border-top: 7px solid #f05a49;
+}
+.header .home:hover,
+.header .about:hover,
+.header .edit:hover,
+.header .project:hover,
+.header .contact:hover{
+  -webkit-transition:all 0.4s ease-in-out;
+  -moz-transition:all 0.3s ease-in-out;
+  -o-transition:all 0.4s ease-in-out;
+  transition:all 0.4s ease-in-out;
+}
+.header .contact{
+  color: #f05a49;
+}
+.slidleft{
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.slidleft h1{
+  color: #f86924;
+  padding: 20px 0;
+}
+.slidleft  h4{
+  color: #1e8bc3;
+padding: 0px 0 10px;
+}
+.slidleft p{
+  color: #408080;
+}
+.slidleft button{
+  background: #1e8bc3;
+  color: #FFF;
+  padding: 10px 20px;
+}
+.image img{
+margin-top: 20px;
+margin-left: -20px;
+}
+.three-prgraph{
+  padding-left: 20px;
+}
+.three-prgraph .col-md-3 {
+    width: 32%;
+}
+.Creative-Solution{
+  background: #35bc7a;
+  color: #f7f7f7;
+  padding: 30px 20px;
+  margin-top: 30px;
+}
+.Creative-Solution .fa-leaf{
+  font-size: 80px;
+  margin-left: 22px;
+}
+.Creative-Solution p{
+padding-bottom: 20px;
+}
+.Creative-Solution .fa-arrow-circle-right{
+  font-size: 60px;
+  cursor: pointer;
+}
+.Easy-and-Fast{
+  background: #f86924;
+  color: #f7f7f7;
+  padding: 30px 20px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.Easy-and-Fast .fa-cogs{
+  font-size: 80px;
+  margin-left: 22px;
+}
+.Easy-and-Fast .fa-arrow-circle-right{
+  font-size: 60px;
+  cursor: pointer;
+}
+.Technical-Support {
+  background: #ff9f00;
+  color: #f7f7f7;
+  padding: 30px 20px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.Technical-Support .fa-comments{
+  font-size: 80px;
+  margin-left: 22px;
+}
+.Technical-Support .fa-arrow-circle-right{
+  font-size: 60px;
+  cursor: pointer;
+}
+.four-prgraph{
+  background: #FFF;
+  padding: 20px;
+  margin-top: 20px;
+  height: 400px;
+}
+.four-prgraph h3{
+  color: #408080;
+}
+.four-prgraph .Change-Image{
+  background: #fe9f00;
+  padding: 20px;
+  margin-top: 20px;
+  height: 280px;
+}
+.four-prgraph .Change-Image:hover{
+  background: #62bcfa;
+}
+.four-prgraph .col-md-3 {
+    width: 23%;
+    margin-left: 15px;
+}
+.four-prgraph h5{
+  color: #FFF;
+  font-weight: bold;
+  padding: 10px 8px;
+}
+.four-prgraph p{
+  color: #ffeaf4;
+  padding-bottom: 20px;
+}
+.four-prgraph button{
+  padding: 8px 14px;
+  background: #924e1c;
+  color: #FFF;
+  font-size: 12px;
+  border: none;
+}
+.four-prgraph button:hover{
+  background: #FFF;
+  color: #1e8bc3;
+}
+.Why-Choose{
+  background: #FFF;
+  padding: 20px;
+  margin-top: 20px;
+  height: 360px;
+}
+.Why-Choose h3{
+  color: #800000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 21px;
+}
+.Why-Choose p{
+  color: #408080;
+  padding-bottom: 20px;
+}
+.Why-Choose .fa{
+  font-size: 40px;
+}
+.Why-Choose .col-left{
+margin-top: 90px;
+}
+.Why-Choose .fa-cloud-download{
+color: #35bc7a;
+}
+.Why-Choose .fa-flag{
+color: #f86924;
+}
+.Why-Choose .fa-hourglass-end{
+color: #1e8bc3;
+}
+.Why-Choose .fa-lightbulb-o{
+color: #ffc15a;
+}
+.Why-Choose img{
+width: 300px;
+height: 300px;
+}
+.our-clients {
+  background: #FFF;
+  padding: 10px;
+  margin-top: 20px;
+  height: 320px;
+  padding-left: 40px;
+}
+.our-clients h4{
+  color: #408080;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  z-index: 9999;
+  position: relative;
+}
+.our-clients img{
+  margin-bottom: 20px;
+  color: red;
+}
+.overlay{
+  width: 93%;
+  height: 320px;
+  background: rgba(248, 248, 248, 0.9);
+  z-index: 9999;
+  position: absolute;
+  top: 1824px;
+  margin-left: 46px;
+}
+.footer {
+  background: #1d2120;
+  padding: 10px;
+  margin-top: 30px;
+  height: 320px;
+  padding-left: 40px;
+  color: #FFF;
+  padding-top: 30px;
+}
+.footer h3{
+  margin-bottom: 20px;
+}
+.footer .a-p{
+  color: #FFF;
+}
+.footer .a-p:hover{
+  color: #FFF;
+}
+.footerp p{
+  padding: 20px 0;
+  color: #FFF;
+  font-size: 14px;
+  background: #06000a;
+  margin-bottom: 0;
+}
+.footer .glossary a{
+  padding-top: 20px;
+}
+.footer button{
+  background: #0e86c5;
+      color: #fff;
+      padding: 5px 8px;
+      margin-bottom: 10px;
+      font-size: 12px;
+      margin-left: 7px;
+      border: none;
+}
+.foot .container{
+  width: 1264px;
+}
+.footer .news{
+  margin-top: 25px;
+  color: #c0c0c0;
+}
+.footer .news i{
+  font-size: 26px;
+}
+.footer .email{
+  color: #FFF;
+}
